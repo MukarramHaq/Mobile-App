@@ -5,11 +5,11 @@ html, body {
     background-color: #EEF0F4;
 }
 
-/* body{
+body{
     display: grid;
     place-content: center;
     min-height: 100vh;
-} */
+}
 
 .container {
     display: flex;
