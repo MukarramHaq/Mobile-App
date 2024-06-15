@@ -5,11 +5,18 @@ html, body {
     background-color: #EEF0F4;
 }
 
+/* body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+} */
+
 .container {
     display: flex;
     flex-direction: column;
     max-width: 320px;
     margin: 30px auto;
+    /* border: 2px solid black; */
 }
 
 img {
@@ -38,4 +45,22 @@ button {
     font-size: 20px;
     text-align: center;
     font-family: 'Rubik', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li{
+    font-size: 20px;
+    background-color: #FFFDF8;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 0.3rem;
 }
